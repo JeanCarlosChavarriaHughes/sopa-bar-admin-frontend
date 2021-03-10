@@ -5,15 +5,15 @@ Administrative Dashboard Project for sopa-bar.
 
 ## Run Backend
 
-Install dependencies
+- Install dependencies
 
 ```yarn```
 
-Compile the src
+- Compile the src
 
 ```yarn build```
 
-Run on dev or prod
+- Run on dev or prod
 
 ```yarn start:dev```
 
@@ -21,18 +21,18 @@ Run on dev or prod
 
 ## Run Frontend
 
-Install dependencies
+- Install dependencies
 
 ```yarn```
 
-Build with minification
+- Build with minification
 
 ```npm run build```
 
-Run linter
+- Run linter
 
 ```npm run lint```
 
-Serve with hot reload at localhost:8080
+- Serve with hot reload at localhost:8080
 
 ```npm run serve```
