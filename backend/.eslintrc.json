@@ -1,0 +1,20 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true
+  },
+  "extends": ["standard"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 12
+  },
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "consistent-return": 2,
+    "indent": [2, 4],
+    "no-else-return": 1,
+    "semi": [1, "always"],
+    "space-unary-ops": 2
+  }
+}
