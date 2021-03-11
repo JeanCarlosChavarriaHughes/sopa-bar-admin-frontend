@@ -5,6 +5,8 @@ Administrative Dashboard Project for sopa-bar.
 
 ## Run Backend
 
+```cd backend```
+
 - Install dependencies
 
 ```yarn```
@@ -20,6 +22,8 @@ Administrative Dashboard Project for sopa-bar.
 ```yarn start:prod```
 
 ## Run Frontend
+
+```cd frontend```
 
 - Install dependencies
 
