@@ -1,7 +1,7 @@
 # sopa-bar-admin
 Administrative Dashboard Project for sopa-bar.
 
-# First commit
+# Getting Started
 
 ## Run Backend
 
