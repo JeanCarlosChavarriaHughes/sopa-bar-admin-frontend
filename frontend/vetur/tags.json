@@ -1,0 +1,10 @@
+{
+  "star-rating/value": {
+    "type": "number",
+    "description": "The star count the rating represents. Eg. 2 could mean 2/5 stars."
+  },
+  "star-rating/star-count": {
+    "type": "number",
+    "description": "The total amount of stars to render. Eg. 5 could mean the rating is \"out of 5\"."
+  }
+}

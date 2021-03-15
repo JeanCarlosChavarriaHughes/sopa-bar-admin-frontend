@@ -10,5 +10,15 @@ module.exports = {
   transpileDependencies: [
     '@coreui/utils',
     '@coreui/vue'
+  ],
+  projects: [
+    {
+      root: './frontend',
+      package: './frontend/package.json',
+      jsconfig: './frontend/jsconfig.json',
+      globalComponents: [
+        './src/components/**/*.vue'
+      ]
+    }
   ]
 }

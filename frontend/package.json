@@ -69,5 +69,9 @@
   "engines": {
     "node": ">= 12.x",
     "npm": ">= 6.x"
+  },
+  "vetur": {
+    "tags": "vetur/tags.json",
+    "attributes": "vetur/attributes.json"
   }
 }
