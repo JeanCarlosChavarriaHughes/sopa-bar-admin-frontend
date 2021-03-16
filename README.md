@@ -1,9 +1,11 @@
 # sopa-bar-admin
 Administrative Dashboard Project for sopa-bar.
 
-# First commit
+# Getting Started
 
 ## Run Backend
+
+```cd backend```
 
 - Install dependencies
 
@@ -21,6 +23,8 @@ Administrative Dashboard Project for sopa-bar.
 
 ## Run Frontend
 
+```cd frontend```
+
 - Install dependencies
 
 ```yarn```
@@ -36,3 +40,14 @@ Administrative Dashboard Project for sopa-bar.
 - Serve with hot reload at localhost:8080
 
 ```npm run serve```
+
+# References
+
+[CoreUI Free Vue Bootstrap Admin Template](https://github.com/coreui/coreui-free-vue-admin-template)
+
+[How I structure my Node.js REST APIs](https://medium.com/swlh/how-i-structure-my-node-js-rest-apis-4e8904ccd2fb)
+
+[Using TypeScript with Node.js and Express](https://blog.logrocket.com/typescript-with-node-js-and-express/)
+
+[Protecting resources with the Node ACL module in Node.js](https://blog.codecentric.de/en/2018/07/protecting-resources-with-node_acl-module-in-nodejs/)
+
