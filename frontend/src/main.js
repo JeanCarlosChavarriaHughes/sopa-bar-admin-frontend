@@ -17,6 +17,6 @@ new Vue({
   icons,
   template: '<App/>',
   components: {
-    App
-  }
+    App,
+  },
 })

@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import { shallowMount } from '@vue/test-utils';
+import { shallowMount } from '@vue/test-utils'
 import CoreuiVue from '@coreui/vue'
 import Tooltips from '@/views/base/Tooltips'
 
@@ -21,7 +21,7 @@ describe('Tooltips.vue', () => {
     expect(wrapper.findComponent(Tooltips)).toBeTruthy()
   })
   // test('renders correctly', () => {
-    // const wrapper = shallowMount(Tooltips)
-    // expect(wrapper.element).toMatchSnapshot()
+  // const wrapper = shallowMount(Tooltips)
+  // expect(wrapper.element).toMatchSnapshot()
   // })
 })

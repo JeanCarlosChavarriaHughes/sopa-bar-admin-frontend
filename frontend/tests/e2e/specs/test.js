@@ -2,7 +2,6 @@
 // http://nightwatchjs.org/guide#usage
 
 module.exports = {
-
   before: function (browser) {
     console.log('Setting up... browser', typeof browser)
   },
@@ -26,17 +25,23 @@ module.exports = {
       }
     }
     const sidebarIsVisible = () => {
-      browser.expect.element('.c-sidebar').to.have.css('margin-left').which.equals('0px')
+      browser.expect
+        .element('.c-sidebar')
+        .to.have.css('margin-left')
+        .which.equals('0px')
     }
 
     const sidebarIsHidden = () => {
-      browser.expect.element('.c-sidebar').to.have.css('margin-left').which.not.equals('0px')
+      browser.expect
+        .element('.c-sidebar')
+        .to.have.css('margin-left')
+        .which.not.equals('0px')
     }
-
 
     browser.url(devServer).pause(500).expect.element('body').to.be.present
 
-    browser.waitForElementVisible('.c-app', 1000)
+    browser
+      .waitForElementVisible('.c-app', 1000)
       .assert.elementPresent('.c-header')
       .assert.elementPresent('.c-sidebar')
       .assert.elementPresent('.c-footer')
@@ -66,17 +71,22 @@ module.exports = {
     browser.click('.c-sidebar-minimizer')
     browser.click('.c-body')
     browser.pause(500)
-    browser.expect.element('.c-sidebar').to.have.css('width').which.equals('56px')
+    browser.expect
+      .element('.c-sidebar')
+      .to.have.css('width')
+      .which.equals('56px')
     browser.click('.c-sidebar-minimizer')
     browser.click('.c-body')
     browser.pause(500)
-    browser.expect.element('.c-sidebar').to.have.css('width').which.equals('256px')
+    browser.expect
+      .element('.c-sidebar')
+      .to.have.css('width')
+      .which.equals('256px')
     browser.click('.c-header-toggler.d-md-down-none')
     browser.pause(1000)
     sidebarIsHidden()
     browser.pause(1000)
 
-
     browser.end()
-  }
+  },
 }

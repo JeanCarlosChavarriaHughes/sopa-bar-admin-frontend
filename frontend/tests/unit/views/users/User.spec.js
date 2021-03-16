@@ -7,7 +7,7 @@ import appRouter from '@/router'
 const localVue = createLocalVue()
 localVue.use(VueRouter)
 const router = appRouter
-router.push({path: '/users/1'})
+router.push({ path: '/users/1' })
 
 localVue.use(CoreuiVue)
 
@@ -16,7 +16,7 @@ describe('User.vue', () => {
   beforeEach(() => {
     wrapper = mount(User, {
       localVue,
-      router
+      router,
     })
   })
   it('has a name', () => {

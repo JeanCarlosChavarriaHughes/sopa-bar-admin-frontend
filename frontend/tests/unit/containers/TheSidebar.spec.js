@@ -1,4 +1,4 @@
-import { shallowMount, createLocalVue } from '@vue/test-utils';
+import { shallowMount, createLocalVue } from '@vue/test-utils'
 import CoreuiVue from '@coreui/vue'
 import Vuex from 'vuex'
 import TheSidebar from '@/containers/TheSidebar'
@@ -10,8 +10,8 @@ localVue.use(Vuex)
 const store = new Vuex.Store({
   state: {
     sidebarShow: 'responsive',
-    sidebarMinimize: false
-  }
+    sidebarMinimize: false,
+  },
 })
 
 describe('TheSidebar.vue', () => {

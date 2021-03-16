@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import { shallowMount } from '@vue/test-utils';
+import { shallowMount } from '@vue/test-utils'
 import CoreuiVue from '@coreui/vue'
 import ProgressBars from '@/views/base/ProgressBars'
 
@@ -36,14 +36,14 @@ describe('ProgressBars.vue', () => {
     jest.spyOn(global.Math, 'random').mockRestore()
   })
   it('should have methods', () => {
-    expect(typeof ProgressBars.methods.clicked  ).toEqual('function')
+    expect(typeof ProgressBars.methods.clicked).toEqual('function')
     expect(ProgressBars.methods.clicked()).toBeUndefined()
   })
   it('should execute mounted', () => {
     // mock interval 2000 ms
-    jest.advanceTimersByTime(2000);
+    jest.advanceTimersByTime(2000)
 
-    expect(setInterval).toHaveBeenCalled();
+    expect(setInterval).toHaveBeenCalled()
     expect(setInterval).toHaveBeenLastCalledWith(expect.any(Function), 2000)
   })
 

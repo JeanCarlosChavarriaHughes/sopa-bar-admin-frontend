@@ -7,7 +7,6 @@ const localVue = createLocalVue()
 localVue.use(VueRouter)
 const router = new VueRouter()
 
-
 localVue.use(CoreuiVue)
 
 describe('App.vue', () => {
@@ -17,14 +16,14 @@ describe('App.vue', () => {
   it('is Vue instance', () => {
     const wrapper = shallowMount(App, {
       localVue,
-      router
+      router,
     })
     expect(wrapper.vm).toBeTruthy()
   })
   it('is App', () => {
     const wrapper = shallowMount(App, {
       localVue,
-      router
+      router,
     })
     expect(wrapper.findComponent(App)).toBeTruthy()
   })

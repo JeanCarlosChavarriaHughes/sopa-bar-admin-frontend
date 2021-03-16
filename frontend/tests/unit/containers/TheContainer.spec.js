@@ -1,5 +1,5 @@
 import CoreuiVue from '@coreui/vue'
-import { shallowMount, createLocalVue } from '@vue/test-utils';
+import { shallowMount, createLocalVue } from '@vue/test-utils'
 import VueRouter from 'vue-router'
 import Vuex from 'vuex'
 import TheContainer from '@/containers/TheContainer'
@@ -13,8 +13,8 @@ const store = new Vuex.Store({
     darkMode: false,
     sidebarShow: 'responsive',
     sidebarMinimize: false,
-    asideShow: false
-  }
+    asideShow: false,
+  },
 })
 
 const router = new VueRouter()
@@ -27,7 +27,7 @@ describe('TheContainer.vue', () => {
     const wrapper = shallowMount(TheContainer, {
       store,
       localVue,
-      router
+      router,
     })
     expect(wrapper.element).toMatchSnapshot()
   })
@@ -35,7 +35,7 @@ describe('TheContainer.vue', () => {
     const wrapper = shallowMount(TheContainer, {
       store,
       localVue,
-      router
+      router,
     })
     expect(wrapper.vm).toBeTruthy()
   })

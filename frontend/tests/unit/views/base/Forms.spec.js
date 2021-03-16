@@ -42,7 +42,9 @@ describe('Forms.vue', () => {
   })
 
   it('should pass validator()', (done) => {
-    const input = wrapper.find('div > div:nth-child(3) > div:nth-child(2) > div > div > form > div:nth-child(2) > input')
+    const input = wrapper.find(
+      'div > div:nth-child(3) > div:nth-child(2) > div > div > form > div:nth-child(2) > input'
+    )
     input.setValue('Hello World')
 
     wrapper.vm.$nextTick(() => {

@@ -3,7 +3,6 @@ import { shallowMount } from '@vue/test-utils'
 import CoreuiVue from '@coreui/vue'
 import Dashboard from '@/views/Dashboard'
 
-
 Vue.use(CoreuiVue)
 
 describe('Dashboard.vue', () => {
