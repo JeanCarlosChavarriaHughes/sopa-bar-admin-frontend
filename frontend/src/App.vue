@@ -1,11 +1,14 @@
 <template>
-  <div>
-    <p>{{ product.name }}</p>
-  </div>
+  <router-view></router-view>
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'App',
+}
 </script>
 
-<style></style>
+<style lang="scss">
+// Import Main styles for this application
+@import 'assets/scss/style';
+</style>

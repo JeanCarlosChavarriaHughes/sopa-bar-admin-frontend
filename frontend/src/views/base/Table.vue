@@ -34,7 +34,12 @@ export default {
     fields: {
       type: Array,
       default() {
-        return ['username', 'registered', 'role', 'status']
+        return [
+          'codigobarraproducto',
+          'codigoproducto',
+          'descripcion_impuesto',
+          'descripcionproducto',
+        ]
       },
     },
     caption: {
