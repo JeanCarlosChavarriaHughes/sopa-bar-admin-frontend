@@ -34,12 +34,7 @@ export default {
     fields: {
       type: Array,
       default() {
-        return [
-          'codigobarraproducto',
-          'codigoproducto',
-          'descripcion_impuesto',
-          'descripcionproducto',
-        ]
+        return ['cuenta', 'subtotal', 'descuento', 'impuesto']
       },
     },
     caption: {
