@@ -32,14 +32,18 @@ Administrative Dashboard Project for sopa-bar.
 - Build with minification
 
 ```npm run build```
+Note: For me, it works only: ```yarn build```
+
 
 - Run linter
 
 ```npm run lint```
+Note: For me, it works only: ```yarn lint```
 
 - Serve with hot reload at localhost:8080
 
 ```npm run serve```
+Note: For me, it works onle: ```yarn serve```
 
 # References
 
